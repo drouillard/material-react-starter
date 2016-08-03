@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { Button, Card, CardTitle, CardActions, CardText } from 'react-mdl';
+import { Button, Card, CardActions, CardText } from 'react-mdl';
 import { Grid, Row } from 'react-flexbox-grid/lib/index';
 
 class App extends Component {
@@ -20,7 +20,9 @@ class App extends Component {
                 <span>You are all set up</span>
               </CardText>
               <CardActions border>
-                <Button raised ripple accent>Get More Components</Button>
+                <Button raised ripple accent href="https://tleunen.github.io/react-mdl/components">
+                  Get More Components
+                  </Button>
               </CardActions>
             </Card>
           </Row>
