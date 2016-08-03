@@ -1,0 +1,33 @@
+{
+  "name": "material-react-starter",
+  "version": "0.0.1",
+  "private": false,
+  "license": "MIT",
+  "repository": "git@github.com:drouillard/material-react-starter.git",
+  "devDependencies": {
+    "react-scripts": "0.2.1",
+    "babel-eslint": "6.1.2",
+    "eslint": "2.13.1",
+    "eslint-plugin-flowtype": "2.4.0",
+    "eslint-plugin-jsx-a11y": "2.0.1",
+    "eslint-plugin-react": "5.2.2"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.9.1",
+    "classnames": "^2.2.5",
+    "flexboxgrid": "^6.3.0",
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1",
+    "react-flexbox-grid": "git@github.com:drouillard/react-flexbox-grid.git",
+    "react-materialize": "^0.14.6",
+    "react-mdl": "^1.6.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/react-scripts/config/eslint.js"
+  }
+}

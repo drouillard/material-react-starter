@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 200px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.content {
+  margin-top: 50px;
+}
+
+.mdl-textfield--floating-label.is-invalid.is-focused .mdl-textfield__label {
+    color: rgb(63,81,181);
+}
+
+.mdl-textfield.is-invalid.is-focused .mdl-textfield__label:after {
+    background-color: rgb(63,81,181);
+}
+
+.mdl-textfield.is-invalid.is-focused .mdl-textfield__input {
+  border-color: rgb(63,81,181);
+}
+
+.mdl-textfield.is-invalid.is-focused .mdl-textfield__error {
+  visibility: hidden;
+}
