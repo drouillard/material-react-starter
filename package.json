@@ -20,7 +20,8 @@
     "react-dom": "^15.2.1",
     "react-flexbox-grid": "git@github.com:drouillard/react-flexbox-grid.git",
     "react-materialize": "^0.14.6",
-    "react-mdl": "^1.6.1"
+    "react-mdl": "^1.6.1",
+    "react-router": "^2.6.1"
   },
   "scripts": {
     "start": "react-scripts start",
